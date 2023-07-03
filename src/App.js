@@ -1,15 +1,15 @@
 
 import React from 'react';
-import Navbar from './sections/navbar/Navbar';
-import Header from './sections/header/Header';
 import About from './sections/about/About';
 import Contact from './sections/contact/Contact';
 import FAQS from './sections/faqs/FAQS';
+import FloatingNav from './sections/floating-nav/FloatingNav';
 import Footer from './sections/footer/Footer';
-import  Portfolio from './sections/portfolio/Portfolio';
+import Header from './sections/header/Header';
+import Navbar from './sections/navbar/Navbar';
+import Portfolio from './sections/portfolio/Portfolio';
 import Services from './sections/services/Services';
 import Testimonials from './sections/testimonials/Testimonials';
-import FloatingNav from './sections/floating-nav/FloatingNav';
 
 
 
@@ -30,13 +30,15 @@ function App() {
     <Navbar />
     < Header />
     < About />
-    <Contact />
+   
     <FAQS />
-    <Footer />
+    
     <Portfolio />
     <Services />
     <Testimonials />
     <FloatingNav />
+    <Contact />
+    <Footer />
 
    </main>
   );
