@@ -30,3 +30,11 @@
 /*  */
 --transition:all 500ms ease;
 }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat',sans-serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
