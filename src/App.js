@@ -30,18 +30,17 @@ function App() {
     <Navbar />
     < Header />
     < About />
-   
-    <FAQS />
-    
-    <Portfolio />
     <Services />
+    <Portfolio />
     <Testimonials />
-    <FloatingNav />
+    <FAQS />
     <Contact />
     <Footer />
+    <FloatingNav />
 
    </main>
   );
 }
 
 export default App;
+ 
