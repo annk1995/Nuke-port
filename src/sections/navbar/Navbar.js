@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/nuke.png'
 import './navbar.css'
+import {IoMdColorPalette} from 'react-icons/io'
 import data from './data'
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
         {
           data.map(item => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
         }
-        <button id='theme_icon'></button>
+        <button id='theme_icon'><IoMdColorPalette /></button>
       </ul>
     </div>
 
