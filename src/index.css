@@ -61,7 +61,7 @@ section>p{
   width: 40%;
 }
 a{
-  /* color: var(--color-white); */
+  color: var(--color-white);
   transition:var(--transition);
   
 }
