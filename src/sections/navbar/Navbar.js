@@ -14,7 +14,7 @@ const Navbar = () => {
         {
           data.map(item => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
         }
-        <button id='theme_icon'><IoMdColorPalette /></button>
+        <button id='theme__icon'><IoMdColorPalette /></button>
       </ul>
     </div>
 
