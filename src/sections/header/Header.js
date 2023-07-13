@@ -1,11 +1,14 @@
 import React from 'react'
-import HeaderImage from '../../assets/business.jpeg'
+import HeaderImage from '../../assets/bulb.jpg'
+
 import data from './data'
 import './header.css'
 const Header = () => {
   return (
   <header id="header">
+    
  <div className=" header__container">
+ {/* <img src={HeroImage}alt="Header Potrait" /> */}
   <div className="header__profile">
     <img src={HeaderImage}alt="Header Potrait" />
   </div>
