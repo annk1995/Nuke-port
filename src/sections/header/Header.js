@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderImage from '../../assets/bulb.jpg'
+// import HeroImage from '../../assets/back.avif'
 
 import data from './data'
 import './header.css'
@@ -10,10 +10,10 @@ const Header = () => {
  <div className=" header__container">
  {/* <img src={HeroImage}alt="Header Potrait" /> */}
   <div className="header__profile">
-    <img src={HeaderImage}alt="Header Potrait" />
+    {/* <img src={HeaderImage}alt="Header Potrait" /> */}
   </div>
   <h3>Nuke Softwares Kenya</h3>
-  <p>lorem ipsum dolor sit amet, consectetur adip lorem lorem</p>
+  <p>Your journey to a succeful website starts with us</p>
   <div className="header__cta">
     <a href="#contact" className="btn primary">Let's Talk</a>
     <a href="#portfolio" className="btn light">Our Work</a>

@@ -1,10 +1,24 @@
 .about__container{
     display: grid;
-    grid-template-columns: 35% 53% ;
-    gap:12%;
+    grid-template-columns: 40% 45% ;
+    gap:8%;
 
 }
 .about__potrait{
     height:30rem;
     max-height: 40rem;
+    margin-left: 5rem;
 }
+.about__cards{
+    margin-left:40px;
+}
+.about__title{
+    margin-bottom:20px ;
+}
+img{
+    border-radius: 2rem 2rem ;
+}
+h2{
+    color:black;
+    font-size: 50px
+};

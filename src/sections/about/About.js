@@ -1,12 +1,13 @@
 import React from 'react'
 import './about.css'
-import AboutImage from '../../assets/business.jpeg'
+import AboutImage from '../../assets/software.jpg'
 import Card from '../../components/Card'
 import data from './data'
 
 const About = () => {
   return (
 <section id="about">
+  
   <div className="about__container">
     <div className="about__left">
       <div className="about__potrait">
@@ -14,7 +15,10 @@ const About = () => {
       </div>
     </div>
     <div className="about__right">
-      <h2>About Us</h2>
+      <h2 className="about__title">About Us</h2>
+      <p>Here, you can get the information of He
+      re, you can get the information of Hex, RGB, HSL, HSV, CMYK, XYZ, Yxy, CMY, Decimal, Decimal RGB, Binary, Hunter Lab, CIE Lab, CIE Luv color conversion values. Also, you can find Shades & Tints, Complementary, Monochromatic, Split Complementary, Triadic, Tetradic, Analogous, CMYK & RGB Percentage and HTML CSS examples of selected color code.
+      Hxy, CMY, Decimal, Decimal RGB, Binary, Hunter Lab, CIE Lab, CIE Luv color conversion values. Also, you can find Shades & Tints, Complementary, Monochromatic, Split Complementary, Triadic, Tetradic, Analogous, CMYK & RGB Percentage and HTML CSS examples of selected color code.</p>
       <div className="about__cards">
         {data.map(item =>(
           <Card key ={item.id} className="about__card">
@@ -25,10 +29,7 @@ const About = () => {
           </Card>
         )) }
       </div>
-        <p>lorem ipsum defdklkkkktglrkkvkfkvkfvfkkvlkflkvkgfbmgbgmbgmmkgfkklfkkfmkmdbkgbkgmkmbkbkgmfkmbkgfkmfmbmgmb  mgkgmkmbkvmkvkm bkmgcvkmg bmcmkgmkgbmkg</p>
-        <p>lorem ipsum defdklkkkktglrkkvkfkvkfvfkkvlkflkvkgfbmgbgmbgmmkgfkklfkkfmkmdbkgbkgmkmbkbkgmfkmbkgfkmfmbmgmb  mgkgmkmbkvmkvkm bkmgcvkmg bmcmkgmkgbmkg</p>
-
-      
+        
     </div>
   </div>
 </section>

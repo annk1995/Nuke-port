@@ -1,16 +1,19 @@
 header{
     margin-top:5rem;
-    height: 80vh;
-    /* width: 100vw; */
+    height: 90vh;
+    width: 100vw;
     display: grid;
     place-items: center;
-   background-image: url("/src/assets/soft.jpg");
-  
+   background-image: url("/src/assets/specs.avif");
    background-repeat: no-repeat;
     transition:var(--transition);
     background-size: cover;
     
+    
 }
+/* header::after{
+    background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(255, 255, 255, 0.47) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76A6EF 100.51%);
+} */
 .header__container{
     display: flex;
     flex-direction: column;
@@ -20,17 +23,20 @@ header{
     height: 22rem;
     border-radius: 9rem 9rem 2rem 2rem;
     overflow: hidden;
-    margin-bottom:1.5rem;
-
+    
 }
-h1, h2,h3,h4,h5, h6,p{
+/* h1, h2,h3,h4,h5, h6,p{
     line-height:1.1;
     color:var(--color-white);
+  } */
+  h3{
+    font-size:3rem;
   }
-  
 .header__container p{
     width: 35rem;
     margin:0.6rem 0 2rem;
+    color: white;
+    font-size: 1.2em;
 }
 .header__cta{
     display: flex;

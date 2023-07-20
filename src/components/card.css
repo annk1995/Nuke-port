@@ -4,10 +4,12 @@
     border:2px solid transparent;
     border-radius:var(--border-radius-1);
     transition: var(--transition);
+    width:20rem;
 }
+
 .card:hover{
     background:transparent ;
-    border-color: var(--color-white);
+    border-color: var(--color-light);
     transform: translateY(0.5rem);
 }
 .card.light{
